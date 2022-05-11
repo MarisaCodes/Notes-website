@@ -34,6 +34,18 @@ main {
   text-align: center;
   font-size: 2rem;
 }
+button {
+  font-family: monospace;
+  border-radius: 10px;
+  border: blue;
+}
+button:hover {
+  background-color: rgb(81, 132, 243, 0.4);
+}
+button:active {
+  box-shadow: 0 5px rgb(130, 143, 147);
+  transform: translateY(-2px) translateX(-2px);
+}
 
 footer {
   background-color: #121212;
