@@ -38,6 +38,8 @@ button {
   font-family: monospace;
   border-radius: 10px;
   border: blue;
+  background-color: rgb(45, 68, 237);
+  color: #fff;
 }
 button:hover {
   background-color: rgb(81, 132, 243, 0.4);
