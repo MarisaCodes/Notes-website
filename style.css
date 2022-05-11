@@ -26,9 +26,9 @@ body {
 }
 
 /* PLACEHOLDER */
-/* * {
+* {
   outline: 1px red solid;
-} */
+}
 
 /* BASE LAYOUT */
 .grid-container {
@@ -92,17 +92,35 @@ main {
 #sample1 {
   border-radius: 10px;
   margin: 5px 5px 5px 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #963484;
   border: #963484;
 }
 .card {
   border-radius: 10px;
   margin: 5px 5px 5px 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #963484;
   border: #963484;
+  /* layout structure */
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
 }
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-title {
+  flex: 1;
+}
+
+.note-content {
+  min-height: 100%;
+}
+
 /* FOOTER AREA */
 footer {
   font-family: 'montserrat';
